@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio Yusuf Akbari</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <h2 class="logo">My Portofolio</h2>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Project</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section id="home" class="hero">
+    <img src="fotosaya.png" alt="Foto Profil" class="profile">
+    <h1>Yusuf Akbari S.Pd</h1>
+    <p>Beginner Web Developer</p>
+    <a href="CV_Yusuf_Akbari_Industri.pdf" class="btn" download>Download CV</a>
+    <a href="#" class="btn">Lihat Project</a>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="about fade">
+    <h2>Tentang Saya</h2>
+    <p>
+      Halo . . . Saya Yusuf Akbari lulusan S-1 Pendidikan PPKn yang memiliki minat di dunia teknologi,
+      khususnya web development. Saya sedang fokus belajar HTML, CSS, dan JavaScript. 
+      Dengan membuat project sederhana dan semenarik mungkin.
+    </p>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="skills fade">
+    <h2>Skills</h2>
+    <div class="skill-list">
+      <div class="skill">HTML</div>
+      <div class="skill">CSS</div>
+      <div class="skill">JavaScript</div>
+      <div class="skill">Git</div>
+    </div>
+  </section>
+
+  <!-- PROJECT -->
+  <section id="projects" class="projects fade">
+    <h2>Project</h2>
+
+    <div class="project-card">
+      <h3>Website Portofolio</h3>
+      <p>
+        Website portofolio pribadi untuk menampilkan profil, skill, dan project. 
+        Dibangun menggunakan HTML dan CSS dengan desain responsif.
+      </p>
+    </div>
+    
+    <div class="project-card">
+      <h3>To-Do List App</h3>
+      <p>
+        Aplikasi berbasis Web untuk mengelola tugas harian.
+        User dapat menambahkan, menandai, dan menghapus tugas.
+      </p>
+      <p><strong>Teknologi:</strong> HTML, CSS, JavaScript</p>
+      <a href="#" class="btn">Coming Soon</a>
+    </div>
+
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="contact fade">
+    <h2>Kontak</h2>
+    <p>WhatsApp: 0882-9202-3120</p>
+    <p>Email: akbariyusuf9292@gmail.com</p>
+    <p>LinkedIn: linkedin.com/in/akbariyusuf</p>
+    <p>Instagram: akbariyusuf</p>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2026 Yusuf Akbari</p>
+  </footer>
+
+  <script src="script.js"></script>
+  
+  <!-- MODAL PROJECT -->
+<div id="modal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2 id="modal-title"></h2>
+      <p id="modal-desc"></p>
+    </div>
+  </div>
+  
+  <!-- BACK TO TOP -->
+  <button id="topBtn">↑</button>
+</body>
+</html>
